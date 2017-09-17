@@ -62,9 +62,17 @@ h1 {
 
 /* htimeline
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timesection{
+
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
 
 .htimeline ul {
-  background: #456990;
+  background: #2C858D;
   padding: 50px 0;
 }
 
@@ -73,7 +81,7 @@ h1 {
   position: relative;
   width: 6px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 30px;
   background: #fff;
 }
 
@@ -94,9 +102,14 @@ h1 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #F45B69;
+  background: #74CEB7;
 }
-
+.licolor{
+  color: #fff;
+}
+.shadow{
+  box-shadow: 5px 5px 5px #454444;
+}
 .htimeline ul li div::before {
   content: '';
   position: absolute;
@@ -104,6 +117,10 @@ h1 {
   width: 0;
   height: 0;
   border-style: solid;
+}
+.t1{
+  font-size: 30px;
+  text-align: center;
 }
 
 .htimeline ul li:nth-child(odd) div {
@@ -113,7 +130,7 @@ h1 {
 .htimeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #F45B69 transparent transparent;
+  border-color: transparent #fff transparent transparent;
 }
 
 .htimeline ul li:nth-child(even) div {
@@ -123,7 +140,7 @@ h1 {
 .htimeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F45B69;
+  border-color: transparent transparent transparent #fff;
 }
 
 time {
@@ -323,7 +340,7 @@ iframe {
   max-width: 100%;
 }
 section {
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 120px;
   position: relative;
   z-index: 10;
@@ -385,6 +402,15 @@ section.page-title .title h1.upper {
 .title.center {
   text-align: center;
 }
+.timeline-has{
+  position: relative;
+    z-index: 10;
+  text-align: center;
+  font-size: 65px;
+  color: #fff;
+
+
+}
 .title.center hr {
   margin: 25px auto;
 }
@@ -439,6 +465,8 @@ section.page-title .title h1.upper {
 }
 .title > h4 {
   font-family: 'Raleway', sans-serif;
+
+
   font-size: 18px;
   margin-top: 10px;
   line-height: 26px;
