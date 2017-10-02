@@ -6484,6 +6484,7 @@ form.register {
     letter-spacing: 0.03em;
     color: #e4e4e4;
   }
+  
   #aside-nav .navigation-menu > li .submenu li a:hover,
   #aside-nav .navigation-menu > li .submenu li span:hover {
     color: #1b96ed;
@@ -6805,7 +6806,7 @@ form.register {
     top: 0;
     z-index: 99999;
     min-height: 62px;
-    background-color: #fff;
+    background-color: transparent;
     padding-left: 15px;
     padding-right: 15px;
     box-shadow: 0 4px 10px -10px rgba(0, 0, 0, 0.6);
