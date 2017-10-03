@@ -122,6 +122,9 @@ background-color: initial;
 .licolor{
   color: #fff;
 }
+.description{
+  text-align: justify;
+}
 .shadow{
   box-shadow: 5px 5px 5px #454444;
   color: black;
@@ -3130,11 +3133,11 @@ section.dark-bg .text-box.outlined {
   text-align: center;
 }
 .team-member.round-thumb .team-image img {
-  width: 150px;
-  border-radius: 50%;
+  width: 250px;
+  
 }
 .team-member.round-thumb.big-thumb .team-image img {
-  width: 250px;
+  width: 450px;
 }
 .team-member.round-thumb .team-social {
   margin-top: 15px;
